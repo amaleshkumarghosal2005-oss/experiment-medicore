@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-green-50: #f4f6ef;
+  --color-green-100: #e5ecd6;
+  --color-green-200: #d6e2bd;
+  --color-green-300: #c7d8a4;
+  --color-green-400: #b8ce8b;
+  --color-green-500: #a9c472;
+  --color-green-600: #9ab959;
+  --color-green-700: #8baf40;
+  --color-green-800: #7ca527;
+  --color-green-900: #6d9b0e;
+  --color-green-950: #5e8100;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-green-50);
+  font-family: 'Inter', system-ui, sans-serif;
+}
